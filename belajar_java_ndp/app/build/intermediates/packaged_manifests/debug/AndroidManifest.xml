@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.belajar_java_ndp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Belajar_java_ndp" >
+        <activity
+            android:name="com.example.belajar_java_ndp.RangkingUser"
+            android:exported="true" />
+        <activity
+            android:name="com.example.belajar_java_ndp.KumpulanPertanyaan"
+            android:exported="true" />
+        <activity
+            android:name="com.example.belajar_java_ndp.TambahPertanyaan"
+            android:exported="true" />
+        <activity
+            android:name="com.example.belajar_java_ndp.Pemberitahuan"
+            android:exported="true" />
+        <activity
+            android:name="com.example.belajar_java_ndp.List_Pertanyaan"
+            android:exported="true" />
+        <activity
+            android:name="com.example.belajar_java_ndp.rangking_pengguna"
+            android:exported="true" />
+        <activity
+            android:name="com.example.belajar_java_ndp.login"
+            android:exported="true" />
+        <activity android:name="com.example.belajar_java_ndp.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
